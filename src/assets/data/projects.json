@@ -3,30 +3,30 @@
     "title": "Final Project",
     "categories": ["2022"],
     "description": "",
-    "img_url": "../assets/"
+    "img_url": "daily-issue.png"
   },
   {
     "title": "Snow Scooper",
     "categories": ["2021", "Social", "Mobile"],
     "description": "Rough winter? Unable to shovel all that snow on your front porch? Snow Scooper is a mobile-friendly web app that helps connect neighbors who want to volunteer and help.",
-    "img_url": "../assets/"
+    "img_url": "daily-issue.png"
   },
   {
     "title": "The Daily Issue",
     "categories": ["2021", "News", "Dashboard"],
     "description": "Find issues for trending GitHub repositories and contribute to open-source projects. The Daily Issue is a web-based application that scrapes live data from GitHub in combination with retrieving repository information from the GitHub API. Data is live updated to reflect daily trends.",
-    "img_url": "../assets/"
+    "img_url": "daily-issue.png"
   },
   {
     "title": "simOn",
     "categories": ["2021", "Game", "Mobile"],
     "description": "simOn, a memory game, is a version of Simon Says. At the start of each round, Simon will present a randomized sequence of colors before the player's turn. If the player can successfully repeat the sequence, they will move on to the next round. After each round, Simon's sequence length will increase. To win, the player must complete all rounds.",
-    "img_url": "../assets/"
+    "img_url": "daily-issue.png"
   },
   {
     "title": "Portfolio Site",
     "categories": ["2022", "Website"],
     "description": "It's what you've been looking at! I've built this portfolio site from the ground up, using React.js, HTML and CSS.",
-    "img_url": "../assets/"
+    "img_url": "daily-issue.png"
   }
 ]

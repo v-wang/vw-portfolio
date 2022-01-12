@@ -4,7 +4,7 @@ Find all my projects, recent learnings, and just general information about me on
 
 Come check it out!
 <br>
-[Portfolio]('http://www.victorwang.me')
+<a href='http://www.victorwang.me'>Portfolio</a>
 
 ## Tech Stack
 

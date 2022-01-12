@@ -13,7 +13,7 @@ function Projects(props) {
         {projects.map((project) => {
           return (
             <div className='project'>
-              <img src='' />
+              <img src={require(`../assets/images/${project.img_url}`)} />
               <div className='project-info'>
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>

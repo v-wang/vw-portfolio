@@ -82,3 +82,8 @@ nav a button:hover {
   color: white;
   font-family: 'Roboto Mono', monospace;
 }
+
+.project img {
+  width: 300px;
+  border: 1px solid black;
+}
