@@ -12,3 +12,7 @@ Come check it out!
 - JavaScript
 - HTML
 - CSS
+
+<br>
+
+<img src='./public/IMG_6398.jpg'>
