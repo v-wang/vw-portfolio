@@ -27,11 +27,12 @@ nav {
   text-align: right;
 }
 
-nav a {
-  margin: 0px 35px 0px 35px;
+nav a button {
+  margin: 0px 30px 0px 30px;
   color: black;
-  text-decoration: none;
   font-weight: 700;
+  font-size: 16px;
+  border: none;
 }
 
 .intro-top {
@@ -54,13 +55,13 @@ nav a {
 }
 
 .intro-text-area h2 {
-  font-size: 38px;
-  width: 390px;
+  font-size: 34px;
+  width: 450px;
   margin-bottom: 12px;
 }
 
 .intro-text-area p {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 26px;
   width: 500px;
 }
@@ -75,4 +76,5 @@ nav a {
 .intro-text-area h3 {
   margin: 0;
   color: white;
+  font-family: 'Roboto Mono', monospace;
 }

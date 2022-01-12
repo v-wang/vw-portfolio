@@ -1,4 +1,6 @@
 import './App.css';
+import { Route } from 'react-router';
+import { Link } from 'react-router-dom';
 import profilePic from './assets/profile-pic.png';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -12,10 +14,18 @@ function App() {
         <div className='bg-inner-two'>
           <div className='bg-main'>
             <nav>
-              <a href=''>About</a>
-              <a href=''>Projects</a>
-              <a href=''>Learning</a>
-              <a href=''>Contact</a>
+              <Link to='/about'>
+                <button>About</button>
+              </Link>
+              <Link to='/'>
+                <button>Projects</button>
+              </Link>
+              <Link to='/learning'>
+                <button>Learning</button>
+              </Link>
+              <Link to='/contact'>
+                <button>Contact</button>
+              </Link>
             </nav>
             <div className='intro-top'>
               <div className='intro-text-area'>
@@ -33,10 +43,10 @@ function App() {
                 <img src={profilePic} alt='victor profile pic' />
               </div>
             </div>
-            <About></About>
-            <Projects></Projects>
-            <Learning></Learning>
-            <Contact></Contact>
+            <Route exact path='/' component={Projects} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/learning' component={Learning} />
+            <Route exact path='/contact' component={Contact} />
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Learning(props) {
-  return <div></div>;
+  return <div>Learning</div>;
 }
 
 export default Learning;
