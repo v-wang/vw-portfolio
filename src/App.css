@@ -2,7 +2,7 @@
   background-color: #c4c4c4;
   width: 88vw;
   margin: 0 auto;
-  margin-top: 25px;
+  /* margin-top: 25px; */
 }
 
 .bg-inner-one {
@@ -18,9 +18,9 @@
 .bg-main {
   background-color: white;
   width: 82vw;
-  height: 100vh;
   padding: 40px 50px 0px 50px;
   box-sizing: border-box;
+  min-height: calc(100vh - 25px);
 }
 
 nav {
@@ -33,6 +33,10 @@ nav a button {
   font-weight: 700;
   font-size: 16px;
   border: none;
+}
+
+nav a button:hover {
+  cursor: pointer;
 }
 
 .intro-top {

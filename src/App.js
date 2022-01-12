@@ -1,7 +1,7 @@
 import './App.css';
 import { Route } from 'react-router';
 import { Link } from 'react-router-dom';
-import profilePic from './assets/profile-pic.png';
+import profilePic from './assets/images/profile-pic.png';
 import About from './components/About';
 import Projects from './components/Projects';
 import Learning from './components/Learning';
