@@ -212,3 +212,16 @@ nav a button:hover {
 #map {
   margin-bottom: 40px;
 }
+
+em {
+  color: #ff5e57;
+  font-weight: 700;
+}
+
+.learning-sub-holder {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.learning-sub {
+}

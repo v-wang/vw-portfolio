@@ -5,7 +5,19 @@ function About(props) {
     <div className='about-holder'>
       <h2>About</h2>
       <div className='about-me'>
-        <p>Welcome to my site! I'm Victor Wang and I love to build things. </p>
+        <p>
+          Hello, I'm Victor Wang. I build websites and applications and I'm
+          always looking for something new to try out. I have a particular
+          interest in data scraping and blockchain technology. I consider myself
+          a fullstack developer, comfortable with working with front end
+          frameworks as well as database management and APIs.
+        </p>
+        <p>
+          When I'm not creating apps for the digital world, I'm out exploring
+          and traveling the real world. I still have many places to check out.
+          If you have any recommendations, visit my contact page and shoot me a
+          message!
+        </p>
       </div>
       <div className='img-gallery'>
         <h3>image</h3>

@@ -10,8 +10,11 @@ function Contact(props) {
             I’m currently located in Philadelphia, PA. I’m open to both
             relocation and remote work. If you have something else in mind, or
             just want to say hi, shoot me a message! I appreciate you taking the
-            time to stop by my site. As a small thanks, check out some of my
-            favorite food spots in Philly!{' '}
+            time to stop by.&nbsp;
+            <em>
+              As a small thanks, check out some of my favorite spots to eat in
+              Philly!
+            </em>
           </p>
         </div>
         <div className='contact-links-holder'>

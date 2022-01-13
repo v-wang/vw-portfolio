@@ -30,11 +30,10 @@ function App() {
               </nav>
               <div className='intro-top'>
                 <div className='intro-text-area'>
-                  <h2>Hi, I'm Victor, Software Engineer</h2>
+                  <h2>Hi, I am Victor, Software Engineer</h2>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
+                    I'm an explorer and creator at heart - traveling the world
+                    and building a virtual universe.
                   </p>
                   <button>
                     <h3>Download Resume</h3>
