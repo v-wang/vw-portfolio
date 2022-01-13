@@ -28,5 +28,11 @@
     "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
     "img_url": "https://onextrapixel.com/wp-content/uploads/2019/12/svg-animations.png",
     "year": "2021"
+  },
+  {
+    "title": "Very Basic Web Scraping (JS DOMParser)",
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "img_url": "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/09/AutoScraper.png",
+    "year": "2021"
   }
 ]
