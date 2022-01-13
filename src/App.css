@@ -3,16 +3,28 @@
   width: 88vw;
   margin: 0 auto;
   /* margin-top: 25px; */
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  padding-top: 10px;
+  max-width: 1575px;
 }
 
 .bg-inner-one {
   background-color: #0fbcf9;
   width: 86vw;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding-top: 10px;
+  max-width: 1550px;
 }
 
 .bg-inner-two {
   background-color: #ffd32a;
   width: 84vw;
+  border-top-right-radius: 30px;
+  padding-top: 10px;
+  border-top-left-radius: 30px;
+  max-width: 1525px;
 }
 
 .bg-main {
@@ -21,10 +33,19 @@
   padding: 40px 50px 0px 50px;
   box-sizing: border-box;
   min-height: calc(100vh - 25px);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  max-width: 1500px;
+}
+
+.bg-main-content {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 nav {
   text-align: right;
+  /* border: 1px solid red; */
 }
 
 nav a button {
@@ -41,6 +62,7 @@ nav a button:hover {
 
 .intro-top {
   display: flex;
+  margin: 0 auto;
   margin-top: 50px;
 }
 
@@ -49,13 +71,13 @@ nav a button:hover {
 }
 
 .intro-profile-pic {
-  position: relative;
-  right: -60px;
+  margin-left: 50px;
+  padding-top: 16px;
 }
 
 .intro-profile-pic img {
-  height: 240px;
-  width: 240px;
+  height: 220px;
+  width: 220px;
 }
 
 .intro-text-area h2 {
@@ -75,6 +97,11 @@ nav a button:hover {
   width: 200px;
   background-color: #ff5e57;
   border: none;
+  margin-top: 30px;
+}
+
+.intro-text-area button:hover {
+  cursor: pointer;
 }
 
 .intro-text-area h3 {
@@ -83,7 +110,105 @@ nav a button:hover {
   font-family: 'Roboto Mono', monospace;
 }
 
+.projects-area {
+  padding-left: 20px;
+  margin-top: 45px;
+}
+
+.projects-top-bar {
+  display: flex;
+}
+
+.projects-top-bar ul {
+  display: flex;
+  list-style: none;
+  margin-top: 28px;
+  margin-left: 40px;
+}
+
+.projects-top-bar button {
+  font-family: 'Roboto Mono', monospace;
+  margin-left: 15px;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.projects-top-bar button:hover {
+  cursor: pointer;
+}
+
+.project {
+  display: flex;
+  margin-top: 75px;
+}
+
 .project img {
   width: 300px;
-  border: 1px solid black;
+}
+
+.project-info {
+  margin-left: 40px;
+  width: 55%;
+}
+
+.project-info h3 {
+  margin-top: 0px;
+}
+
+.about-holder {
+  padding-left: 20px;
+  margin-top: 73px;
+}
+
+.learning-holder {
+  padding-left: 20px;
+  margin-top: 73px;
+}
+
+.contact-holder {
+  padding-left: 20px;
+  margin-top: 73px;
+}
+
+.learning-sub img {
+  width: 280px;
+}
+
+.contact-content {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.contact-text {
+  width: 420px;
+}
+
+.contact-text p {
+  line-height: 26px;
+}
+
+.contact-links-holder {
+  margin-left: 50px;
+  margin-top: 25px;
+}
+
+.contact-link {
+  display: flex;
+  margin-top: -20px;
+}
+
+.contact-link img {
+  width: 30px;
+  height: 30px;
+  /* border: 1px solid red; */
+  margin-top: 18px;
+}
+
+.contact-link h4 {
+  margin-left: 30px;
+}
+
+#map {
+  margin-bottom: 40px;
 }
