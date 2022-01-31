@@ -6,6 +6,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Learning from './components/Learning';
 import Contact from './components/Contact';
+import resumePDF from './assets/vw-resume.pdf';
 
 function App() {
   return (
@@ -35,9 +36,11 @@ function App() {
                     I'm an explorer and creator at heart - traveling the world
                     and building a virtual universe.
                   </p>
-                  <button>
-                    <h3>Download Resume</h3>
-                  </button>
+                  <a href={resumePDF} download>
+                    <button>
+                      <h3>Download Resume</h3>
+                    </button>
+                  </a>
                 </div>
                 <div className='intro-profile-pic'>
                   <img src={profilePic} alt='victor profile pic' />
