@@ -102,6 +102,7 @@ nav a button:hover {
   background-color: #ff5e57;
   border: none;
   margin-top: 30px;
+  border-radius: 10px;
 }
 
 .intro-text-area button:hover {
@@ -158,6 +159,19 @@ nav a button:hover {
 
 .project-info h3 {
   margin-top: 0px;
+}
+
+.project-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category {
+  background-color: #3c40c6;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
 }
 
 .about-holder {
