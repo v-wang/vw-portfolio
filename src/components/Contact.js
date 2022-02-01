@@ -20,15 +20,19 @@ function Contact(props) {
         <div className='contact-links-holder'>
           <div className='contact-link'>
             <img src={require('../assets/images/email.png')} />
-            <h4>mailbox.vmw@gmail.com</h4>
+            <a href='mailto: mailbox.vmw@gmail.com'>mailbox.vmw@gmail.com</a>
           </div>
           <div className='contact-link'>
             <img src={require('../assets/images/github.png')} />
-            <h4>https://github.com/v-wang</h4>
+            <a href='https://github.com/v-wang' target='_blank'>
+              https://github.com/v-wang
+            </a>
           </div>
           <div className='contact-link'>
             <img src={require('../assets/images/linkedin.png')} />
-            <h4>https://www.linkedin.com/in/vicw/</h4>
+            <a href='https://www.linkedin.com/in/vicw/' target='_blank'>
+              https://www.linkedin.com/in/vicw/
+            </a>
           </div>
         </div>
       </div>

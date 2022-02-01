@@ -54,6 +54,7 @@ nav a button {
   font-weight: 700;
   font-size: 16px;
   border: none;
+  background: none;
 }
 
 nav a button:hover {
@@ -67,7 +68,7 @@ nav a button:hover {
 }
 
 .intro-top > * {
-  margin: 20px;
+  margin-left: 20px;
 }
 
 .intro-profile-pic {
@@ -80,6 +81,10 @@ nav a button:hover {
   width: 220px;
 }
 
+.intro-text-area {
+  width: 54%;
+}
+
 .intro-text-area h2 {
   font-size: 34px;
   width: 450px;
@@ -89,7 +94,7 @@ nav a button:hover {
 .intro-text-area p {
   font-size: 17px;
   line-height: 26px;
-  width: 500px;
+  width: 90%;
 }
 
 .intro-text-area button {
@@ -98,6 +103,7 @@ nav a button:hover {
   background-color: #ff5e57;
   border: none;
   margin-top: 30px;
+  border-radius: 10px;
 }
 
 .intro-text-area button:hover {
@@ -132,6 +138,7 @@ nav a button:hover {
   border: none;
   font-size: 15px;
   font-weight: 700;
+  background: none;
 }
 
 .projects-top-bar button:hover {
@@ -145,6 +152,7 @@ nav a button:hover {
 
 .project img {
   width: 300px;
+  height: fit-content;
 }
 
 .project-info {
@@ -156,9 +164,31 @@ nav a button:hover {
   margin-top: 0px;
 }
 
+.project-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.category {
+  background-color: #3c40c6;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: 700;
+}
+
 .about-holder {
   padding-left: 20px;
   margin-top: 73px;
+}
+
+.about-me {
+  margin-bottom: 30px;
+}
+
+.img-gallery img {
+  width: 100%;
 }
 
 .learning-holder {
