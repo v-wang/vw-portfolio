@@ -14,6 +14,10 @@ body {
   box-sizing: border-box;
 }
 
+body > * button {
+  font-family: 'Roboto Mono', monospace;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

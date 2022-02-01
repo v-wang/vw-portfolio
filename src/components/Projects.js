@@ -27,6 +27,8 @@ function Projects(props) {
                     return <div className='category'>{category}</div>;
                   })}
                 </div>
+                <a>Live</a>
+                <a>GitHub</a>
                 <p>{project.description}</p>
               </div>
             </div>

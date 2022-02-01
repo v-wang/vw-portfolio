@@ -152,6 +152,7 @@ nav a button:hover {
 
 .project img {
   width: 300px;
+  height: fit-content;
 }
 
 .project-info {
@@ -174,6 +175,7 @@ nav a button:hover {
   color: white;
   border-radius: 5px;
   padding: 5px 10px 5px 10px;
+  font-weight: 700;
 }
 
 .about-holder {
