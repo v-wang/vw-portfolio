@@ -34,7 +34,8 @@ function App() {
                   <h2>Hi, I am Victor, Software Engineer</h2>
                   <p>
                     I'm an explorer and creator at heart - traveling the world
-                    and building a virtual universe.
+                    and building a digital universe. I'm always open to work or
+                    to just chat. Come say hi!
                   </p>
                   <a href={resumePDF} download>
                     <button>

@@ -67,7 +67,7 @@ nav a button:hover {
 }
 
 .intro-top > * {
-  margin: 20px;
+  margin-left: 20px;
 }
 
 .intro-profile-pic {
@@ -80,6 +80,10 @@ nav a button:hover {
   width: 220px;
 }
 
+.intro-text-area {
+  width: 54%;
+}
+
 .intro-text-area h2 {
   font-size: 34px;
   width: 450px;
@@ -89,7 +93,7 @@ nav a button:hover {
 .intro-text-area p {
   font-size: 17px;
   line-height: 26px;
-  width: 500px;
+  width: 90%;
 }
 
 .intro-text-area button {

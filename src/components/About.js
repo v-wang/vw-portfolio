@@ -1,4 +1,5 @@
 import React from 'react';
+import pups from '../assets/images/vw-pups.jpeg';
 
 function About(props) {
   return (
@@ -20,7 +21,7 @@ function About(props) {
         </p>
       </div>
       <div className='img-gallery'>
-        <h3>image</h3>
+        <img src={pups} />
       </div>
     </div>
   );
