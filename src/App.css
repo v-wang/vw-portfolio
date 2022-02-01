@@ -181,6 +181,14 @@ nav a button:hover {
   margin-top: 73px;
 }
 
+.about-me {
+  margin-bottom: 30px;
+}
+
+.img-gallery img {
+  width: 100%;
+}
+
 .learning-holder {
   padding-left: 20px;
   margin-top: 73px;
