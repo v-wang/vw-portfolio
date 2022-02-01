@@ -1,9 +1,9 @@
 [
   {
-    "title": "Chatter",
+    "title": "Chatter - in progress",
     "categories": ["2022", "Real-time Chat", "Websockets"],
     "description": "Learning a new language? What better way to practice than to chat live with fluent speakers? Meet Chatter, a quick way to connect with fluent speakers through text. Learning a new language is hard, and learning how to speak conversationally can be even harder. Practice and hone your skills with Chatter and make new connections along the way.",
-    "img_url": "soon.png",
+    "img_url": "chatter-screenshot.png",
     "live_url": "https://project-4-react.herokuapp.com/",
     "gh_url": "https://github.com/v-wang/client-project-4",
     "mobile": false

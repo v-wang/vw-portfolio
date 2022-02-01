@@ -153,6 +153,7 @@ nav a button:hover {
 .project img {
   width: 300px;
   height: fit-content;
+  border-radius: 10px;
 }
 
 .mobile-shot {
@@ -240,12 +241,19 @@ nav a button:hover {
 
 .contact-links-holder {
   margin-left: 50px;
-  margin-top: 25px;
+  /* margin-top: 25px; */
 }
 
 .contact-link {
   display: flex;
-  margin-top: -20px;
+}
+
+.contact-link a {
+  text-decoration: none;
+  color: #ff5e57;
+  font-weight: 700;
+  margin-top: 21px;
+  margin-left: 10px;
 }
 
 .contact-link img {
@@ -253,10 +261,6 @@ nav a button:hover {
   height: 30px;
   /* border: 1px solid red; */
   margin-top: 18px;
-}
-
-.contact-link h4 {
-  margin-left: 30px;
 }
 
 #map {
