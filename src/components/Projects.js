@@ -1,36 +1,59 @@
 import React from 'react';
+import { useState } from 'react';
 import projects from '../assets/data/projects.json';
 
 function Projects(props) {
+  const [pageStart, setPageStart] = useState(1);
+  const [pageCount, setPageCount] = useState(3);
+
+  function paginate(projects) {
+    return projects.slice((pageStart - 1) * pageCount, pageStart * pageCount);
+  }
+
+  paginate(projects);
+
   return (
     <div className='projects-area'>
       <div className='projects-top-bar'>
         <h2>Projects</h2>
         <ul>
           <li>
-            <button>1</button>
+            <button
+              onClick={(ev) => {
+                setPageStart(ev.target.textContent);
+              }}
+            >
+              1
+            </button>
           </li>
           <li>
-            <button>2</button>
+            <button
+              onClick={(ev) => {
+                setPageStart(ev.target.textContent);
+              }}
+            >
+              2
+            </button>
           </li>
         </ul>
       </div>
       <div className='projects-holder'>
-        {projects.map((project) => {
+        {paginate(projects).map((project) => {
           return (
             <div className='project'>
-              <img src={require(`../assets/images/${project.img_url}`)} />
+              <img
+                className={project.mobile ? 'mobile-shot' : null}
+                src={require(`../assets/images/${project.img_url}`)}
+              />
               <div className='project-info'>
-                <h3>
-                  {project.title}{' '}
-                  <a href={project.live_url} target='_blank'>
-                    (live)
-                  </a>
-                  /
-                  <a href={project.gh_url} target='_blank'>
-                    (repo)
-                  </a>
-                </h3>
+                <h3>{project.title}</h3>
+                <a href={project.live_url} target='_blank'>
+                  (live)
+                </a>
+                /
+                <a href={project.gh_url} target='_blank'>
+                  (repo)
+                </a>
                 <div className='project-categories'>
                   {project.categories.map((category) => {
                     return <div className='category'>{category}</div>;

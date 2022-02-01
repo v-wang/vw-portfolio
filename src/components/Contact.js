@@ -25,13 +25,13 @@ function Contact(props) {
           <div className='contact-link'>
             <img src={require('../assets/images/github.png')} />
             <a href='https://github.com/v-wang' target='_blank'>
-              https://github.com/v-wang
+              github.com/v-wang
             </a>
           </div>
           <div className='contact-link'>
             <img src={require('../assets/images/linkedin.png')} />
             <a href='https://www.linkedin.com/in/vicw/' target='_blank'>
-              https://www.linkedin.com/in/vicw/
+              linkedin.com/in/vicw/
             </a>
           </div>
         </div>

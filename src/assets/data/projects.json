@@ -5,7 +5,8 @@
     "description": "Learning a new language? What better way to practice than to chat live with fluent speakers? Meet Chatter, a quick way to connect with fluent speakers through text. Learning a new language is hard, and learning how to speak conversationally can be even harder. Practice and hone your skills with Chatter and make new connections along the way.",
     "img_url": "soon.png",
     "live_url": "https://project-4-react.herokuapp.com/",
-    "gh_url": "https://github.com/v-wang/client-project-4"
+    "gh_url": "https://github.com/v-wang/client-project-4",
+    "mobile": false
   },
   {
     "title": "Snow Scooper",
@@ -13,7 +14,8 @@
     "description": "Rough winter? Unable to shovel all that snow on your front porch? Snow Scooper is a mobile-friendly web app that helps connect neighbors who want to volunteer and help.",
     "img_url": "snow-scooper-screenshot.png",
     "live_url": "https://snowfall-helper.herokuapp.com/",
-    "gh_url": "https://github.com/v-wang/snow-front"
+    "gh_url": "https://github.com/v-wang/snow-front",
+    "mobile": true
   },
   {
     "title": "The Daily Issue",
@@ -21,7 +23,8 @@
     "description": "Find issues for trending GitHub repositories and contribute to open-source projects. The Daily Issue is a web-based application that scrapes live data from GitHub in combination with retrieving repository information from the GitHub API. Data is live updated to reflect daily trends.",
     "img_url": "daily-issue.png",
     "live_url": "https://arcane-peak-94425.herokuapp.com/",
-    "gh_url": "https://github.com/v-wang/thedailyissue"
+    "gh_url": "https://github.com/v-wang/thedailyissue",
+    "mobile": false
   },
   {
     "title": "simOn",
@@ -29,7 +32,8 @@
     "description": "simOn, a memory game, is a version of Simon Says. At the start of each round, Simon will present a randomized sequence of colors before the player's turn. If the player can successfully repeat the sequence, they will move on to the next round. After each round, Simon's sequence length will increase. To win, the player must complete all rounds.",
     "img_url": "gameplay.gif",
     "live_url": "https://pages.git.generalassemb.ly/v-wang/simon/",
-    "gh_url": "https://github.com/v-wang/simOn"
+    "gh_url": "https://github.com/v-wang/simOn",
+    "mobile": true
   },
   {
     "title": "Portfolio Site",
@@ -37,6 +41,7 @@
     "description": "It's what you've been looking at! I've built this portfolio site from the ground up, using React.js, HTML and CSS.",
     "img_url": "portfolio-screenshot.png",
     "live_url": "www.victorwang.me",
-    "gh_url": "https://github.com/v-wang/vw-portfolio"
+    "gh_url": "https://github.com/v-wang/vw-portfolio",
+    "mobile": false
   }
 ]
