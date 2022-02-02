@@ -1,0 +1,58 @@
+[
+  {
+    "tech-language": [
+      {
+        "language": "Python",
+        "logo": "python-logo.png"
+      },
+      {
+        "language": "JavaScript",
+        "logo": "javascript-logo.png"
+      },
+      {
+        "language": "HTML",
+        "logo": "html-logo.png"
+      },
+      {
+        "language": "CSS",
+        "logo": "css-logo.png"
+      }
+    ]
+  },
+  {
+    "frameworks-libraries": [
+      {
+        "tech": "Django",
+        "logo": "django-logo.png"
+      },
+      {
+        "tech": "React",
+        "logo": "react-logo.png"
+      },
+      {
+        "tech": "Node",
+        "logo": "node-logo.png"
+      },
+      {
+        "tech": "Express",
+        "logo": "express-logo.png"
+      },
+      {
+        "tech": "Mongoose",
+        "logo": "mongoose-logo.png"
+      }
+    ]
+  },
+  {
+    "databases-tools": [
+      {
+        "tech": "Postgresql",
+        "logo": "postgresql-logo.png"
+      },
+      {
+        "tech": "MongoDB",
+        "logo": "mongodb-logo.png"
+      }
+    ]
+  }
+]

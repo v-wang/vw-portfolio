@@ -1,5 +1,6 @@
 import React from 'react';
 import pups from '../assets/images/vw-pups.jpeg';
+import techLanguages from '../assets/data/languages.json';
 
 function About(props) {
   return (
