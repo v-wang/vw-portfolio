@@ -1,6 +1,6 @@
 [
   {
-    "tech-language": [
+    "tech_languages": [
       {
         "language": "Python",
         "logo": "python-logo.png"
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "frameworks-libraries": [
+    "frameworks_libraries": [
       {
         "tech": "Django",
         "logo": "django-logo.png"
@@ -44,7 +44,7 @@
     ]
   },
   {
-    "databases-tools": [
+    "databases_tools": [
       {
         "tech": "Postgresql",
         "logo": "postgresql-logo.png"

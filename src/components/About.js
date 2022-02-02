@@ -3,6 +3,9 @@ import pups from '../assets/images/vw-pups.jpeg';
 import techLanguages from '../assets/data/languages.json';
 
 function About(props) {
+  const languages = techLanguages[0];
+  const frameworks_libraries = techLanguages[1];
+  const databases_tools = techLanguages[2];
   return (
     <div className='about-holder'>
       <h2>About</h2>
@@ -15,9 +18,24 @@ function About(props) {
           frameworks as well as database management and APIs.
         </p>
       </div>
-      <h2>Languages</h2>
-      <h2>Frameworks/Libraries</h2>
-      <h2>Databases & Tools</h2>
+      <div className='language-logos'>
+        <h2>Languages</h2>
+        {languages.tech_languages.map((language) => {
+          return <img src={require(`../assets/images/${language.logo}`)} />;
+        })}
+      </div>
+      <div className='framework-logos'>
+        <h2>Frameworks/Libraries</h2>
+        {frameworks_libraries.frameworks_libraries.map((framework) => {
+          return <img src={require(`../assets/images/${framework.logo}`)} />;
+        })}
+      </div>
+      <div className='db-logos'>
+        <h2>Databases & Tools</h2>
+        {databases_tools.databases_tools.map((db) => {
+          return <img src={require(`../assets/images/${db.logo}`)} />;
+        })}
+      </div>
       <div className='about-me'>
         <p>
           When I'm not creating apps for the digital world, I'm out exploring
