@@ -179,7 +179,7 @@ nav a button:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-top: 12px;
+  margin-top: 14px;
 }
 
 .category {
@@ -266,7 +266,7 @@ em {
 .learning-holder {
   padding-left: 20px;
   margin-top: 73px;
-  width: 100%;
+  width: inherit;
 }
 
 .learning-sub-holder {
@@ -277,6 +277,7 @@ em {
 
 .learning-sub {
   width: 250px;
+  flex-grow: 1;
 }
 
 .learning-sub img {
