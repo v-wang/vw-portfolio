@@ -2,7 +2,7 @@ import React from 'react';
 import learningSubs from '../../assets/data/learning.json';
 import './learning.css';
 
-function Learning(props) {
+function Learning() {
   return (
     <div className='learning-holder'>
       <h2>Learning</h2>

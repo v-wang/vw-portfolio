@@ -11,7 +11,7 @@ import resumePDF from './assets/vw-resume.pdf';
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const breakpoint = 650;
+  const breakpoint = 625;
 
   useEffect(() => {
     window.addEventListener('resize', () => {
