@@ -213,6 +213,33 @@ nav a button:hover {
   border-radius: 10px;
 }
 
+.language-logos,
+.framework-logos,
+.db-logos {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.language-logos {
+  column-gap: 25px;
+}
+
+.language-logos img {
+  width: 70px;
+  height: fit-content;
+}
+
+.framework-logos img {
+  width: 100px;
+  height: fit-content;
+}
+.db-logos img {
+  width: 110px;
+  height: fit-content;
+}
+
 .contact-holder {
   padding-left: 20px;
   margin-top: 73px;
