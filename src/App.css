@@ -212,18 +212,9 @@ nav a button:hover {
   border-radius: 10px;
 }
 
-.learning-holder {
-  padding-left: 20px;
-  margin-top: 73px;
-}
-
 .contact-holder {
   padding-left: 20px;
   margin-top: 73px;
-}
-
-.learning-sub img {
-  width: 280px;
 }
 
 .contact-content {
@@ -272,10 +263,29 @@ em {
   font-weight: 700;
 }
 
+.learning-holder {
+  padding-left: 20px;
+  margin-top: 73px;
+  width: 100%;
+}
+
 .learning-sub-holder {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 25px;
 }
 
 .learning-sub {
+  width: 250px;
+}
+
+.learning-sub img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  /* height: 50px; */
+}
+
+.learning-sub p {
+  line-height: 26px;
 }

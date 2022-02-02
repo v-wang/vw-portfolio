@@ -1,37 +1,37 @@
 [
   {
     "title": "Learning Vim",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "body": "I first stumbled on Vim when looking for IDEs. I'm now learning about all the different key bindings to quickly navigate without touching my mouse!",
     "img_url": "https://www.cloudsavvyit.com/p/uploads/2021/02/7ae6c4da.png?width=1198&trim=1,1&bg-color=000&pad=1,1",
     "year": "2021"
   },
   {
     "title": "Proxy Servers",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "body": "While building a project, I ran into CORS issues where I was unable to access resources from a different origin. I ended up setting up my own proxy server by following Rob W's cors-anywhere (https://github.com/Rob--W/cors-anywhere) ",
     "img_url": "https://media.istockphoto.com/photos/extreme-closeup-of-supercomputer-picture-id1073009100?k=20&m=1073009100&s=612x612&w=0&h=QYnfGbZSzpyu-S2bW5q9AUECIVHr6-hQ6AsQ8AJtncI=",
     "year": "2021"
   },
   {
     "title": "React.js Extras",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "body": "After building a couple of React apps, I couldn't quite understand what was bothering me about the code I had written. Then I read about prop drilling and managing states with reducers and contexts.",
     "img_url": "https://lh4.googleusercontent.com/sBaxDLU9jP8BOaB8vNld8Yu_dv7V3HZGBNBHiguET93-VXWxm1tO3J6PtAWEg46cBAicYGZtZEMwRdYO3NYJUKBrEIT18-KvRUAMIHzQ_Q1sagcKZa3hyKVR4hJaf4VpTV3hoAoa",
     "year": "2021"
   },
   {
-    "title": "OpenStreetMap & React.js",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "title": "OpenStreetMap & Leaflet.js",
+    "body": "I've embedded google maps before but I wanted to try to build my own custom map. I'm now dabbling with Leaflet to create custom markers and playing around with tile layers.",
     "img_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/OpenStreetMaps_Planetarium_Bremen.jpg",
     "year": "2021"
   },
   {
     "title": "Simple SVGs & CSS Animations",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "body": "I found myself spending an unnecessary amount of time trying to find the perfect simple icon for my apps. This led me down a path to play with CSS transform and animations.",
     "img_url": "https://onextrapixel.com/wp-content/uploads/2019/12/svg-animations.png",
     "year": "2021"
   },
   {
     "title": "Very Basic Web Scraping (JS DOMParser)",
-    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "body": "Unlocking the vast amount of data online has always been an interest of mine. I plan to learn more advance web scraping techniques besides just parsing the DOM and cherry picking elements. My next goal is to bypass mechanisms like CAPTCHA and logins while avoiding 'honeypot traps'.",
     "img_url": "https://149695847.v2.pressablecdn.com/wp-content/uploads/2020/09/AutoScraper.png",
     "year": "2021"
   }
