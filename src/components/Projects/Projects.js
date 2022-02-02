@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import projects from '../assets/data/projects.json';
+import projects from '../../assets/data/projects.json';
 
 function Projects(props) {
   const [pageStart, setPageStart] = useState(1);
@@ -43,7 +43,7 @@ function Projects(props) {
             <div className='project'>
               <img
                 className={project.mobile ? 'mobile-shot' : null}
-                src={require(`../assets/images/${project.img_url}`)}
+                src={require(`../../assets/images/${project.img_url}`)}
               />
               <div className='project-info'>
                 <h3>{project.title}</h3>

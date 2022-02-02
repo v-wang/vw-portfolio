@@ -1,6 +1,6 @@
 import React from 'react';
-import pups from '../assets/images/vw-pups.jpeg';
-import techLanguages from '../assets/data/languages.json';
+import pups from '../../assets/images/vw-pups.jpeg';
+import techLanguages from '../../assets/data/languages.json';
 
 function About(props) {
   const languages = techLanguages[0];
@@ -21,19 +21,19 @@ function About(props) {
       <h2>Languages</h2>
       <div className='language-logos'>
         {languages.tech_languages.map((language) => {
-          return <img src={require(`../assets/images/${language.logo}`)} />;
+          return <img src={require(`../../assets/images/${language.logo}`)} />;
         })}
       </div>
       <h2>Frameworks / Libraries</h2>
       <div className='framework-logos'>
         {frameworks_libraries.frameworks_libraries.map((framework) => {
-          return <img src={require(`../assets/images/${framework.logo}`)} />;
+          return <img src={require(`../../assets/images/${framework.logo}`)} />;
         })}
       </div>
       <h2>Databases / Tools</h2>
       <div className='db-logos'>
         {databases_tools.databases_tools.map((db) => {
-          return <img src={require(`../assets/images/${db.logo}`)} />;
+          return <img src={require(`../../assets/images/${db.logo}`)} />;
         })}
       </div>
       <div className='about-me'>
