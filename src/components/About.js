@@ -13,6 +13,11 @@ function About(props) {
           a fullstack developer, comfortable with working with front end
           frameworks as well as database management and APIs.
         </p>
+      </div>
+      <h2>Languages</h2>
+      <h2>Frameworks/Libraries</h2>
+      <h2>Databases & Tools</h2>
+      <div className='about-me'>
         <p>
           When I'm not creating apps for the digital world, I'm out exploring
           and traveling the real world. I still have many places to check out.
