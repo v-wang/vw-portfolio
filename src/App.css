@@ -6,7 +6,7 @@
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
   padding-top: 10px;
-  max-width: 1575px;
+  max-width: 1175px;
 }
 
 .bg-inner-one {
@@ -15,7 +15,7 @@
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   padding-top: 10px;
-  max-width: 1550px;
+  max-width: 1150px;
 }
 
 .bg-inner-two {
@@ -24,7 +24,8 @@
   border-top-right-radius: 30px;
   padding-top: 10px;
   border-top-left-radius: 30px;
-  max-width: 1525px;
+  /* max-width: 1525px; */
+  max-width: 1125px;
 }
 
 .bg-main {
@@ -35,7 +36,8 @@
   min-height: calc(100vh - 25px);
   border-top-right-radius: 30px;
   border-top-left-radius: 30px;
-  max-width: 1500px;
+  /* max-width: 1500px; */
+  max-width: 1100px;
 }
 
 .bg-main-content {
@@ -152,15 +154,15 @@ nav a button:hover {
 }
 
 .project img {
-  width: 300px;
+  width: 250px;
   height: fit-content;
   border-radius: 10px;
 }
 
-.mobile-shot {
+/* .mobile-shot {
   box-sizing: border-box;
   padding: 0px 30px 0px 30px;
-}
+} */
 
 .project-info {
   margin-left: 40px;
