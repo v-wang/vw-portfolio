@@ -224,6 +224,7 @@ nav a button:hover {
 
 .language-logos {
   column-gap: 25px;
+  margin-top: 35px;
 }
 
 .language-logos img {

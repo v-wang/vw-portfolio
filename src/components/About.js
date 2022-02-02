@@ -24,13 +24,13 @@ function About(props) {
           return <img src={require(`../assets/images/${language.logo}`)} />;
         })}
       </div>
-      <h2>Frameworks/Libraries</h2>
+      <h2>Frameworks / Libraries</h2>
       <div className='framework-logos'>
         {frameworks_libraries.frameworks_libraries.map((framework) => {
           return <img src={require(`../assets/images/${framework.logo}`)} />;
         })}
       </div>
-      <h2>Databases & Tools</h2>
+      <h2>Databases / Tools</h2>
       <div className='db-logos'>
         {databases_tools.databases_tools.map((db) => {
           return <img src={require(`../assets/images/${db.logo}`)} />;
