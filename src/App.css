@@ -123,6 +123,7 @@ nav a button:hover {
 
 .projects-top-bar {
   display: flex;
+  margin-bottom: 25px;
 }
 
 .projects-top-bar ul {
@@ -147,7 +148,7 @@ nav a button:hover {
 
 .project {
   display: flex;
-  margin-top: 75px;
+  margin-bottom: 75px;
 }
 
 .project img {
