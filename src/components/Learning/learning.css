@@ -1,0 +1,27 @@
+.learning-holder {
+  padding-left: 20px;
+  margin-top: 73px;
+  width: inherit;
+}
+
+.learning-sub-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px 25px;
+}
+
+.learning-sub {
+  width: 250px;
+  flex-grow: 1;
+}
+
+.learning-sub img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  /* height: 50px; */
+}
+
+.learning-sub p {
+  line-height: 26px;
+}

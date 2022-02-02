@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import projects from '../../assets/data/projects.json';
+import './projects.css';
 
 function Projects(props) {
   const [pageStart, setPageStart] = useState(1);

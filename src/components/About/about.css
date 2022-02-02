@@ -1,0 +1,45 @@
+.about-holder {
+  padding-left: 20px;
+  margin-top: 73px;
+}
+
+.about-me {
+  margin-bottom: 30px;
+}
+
+.about-me p {
+  line-height: 26px;
+}
+
+.img-gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.language-logos,
+.framework-logos,
+.db-logos {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.language-logos {
+  column-gap: 25px;
+  margin-top: 35px;
+}
+
+.language-logos img {
+  width: 70px;
+  height: fit-content;
+}
+
+.framework-logos img {
+  width: 100px;
+  height: fit-content;
+}
+.db-logos img {
+  width: 110px;
+  height: fit-content;
+}

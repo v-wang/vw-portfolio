@@ -1,5 +1,6 @@
 import React from 'react';
 import learningSubs from '../../assets/data/learning.json';
+import './learning.css';
 
 function Learning(props) {
   return (

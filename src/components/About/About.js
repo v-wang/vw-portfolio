@@ -1,6 +1,7 @@
 import React from 'react';
 import pups from '../../assets/images/vw-pups.jpeg';
 import techLanguages from '../../assets/data/languages.json';
+import './about.css';
 
 function About(props) {
   const languages = techLanguages[0];
