@@ -55,6 +55,8 @@
 
 #menu-icon-mobile {
   position: absolute;
+  width: 30px;
+  opacity: 0.6;
 }
 
 #profile-pic-mobile {

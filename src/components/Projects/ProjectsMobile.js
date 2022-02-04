@@ -15,7 +15,7 @@ function ProjectsMobile(props) {
 
   return (
     <div className='projects-container'>
-      <h1>Project</h1>
+      <h1>Projects</h1>
       <div className='projects-filter'>
         {Array.from(categories)
           .sort()
@@ -36,6 +36,20 @@ function ProjectsMobile(props) {
                 className='project-img-mobile'
                 src={require(`../../assets/images/${project.img_url}`)}
               />
+              <div className='projects-filter'>
+                {project.categories.map((category) => {
+                  return <div className='category-mobile'>{category}</div>;
+                })}
+              </div>
+              <div className='links-mobile'>
+                <a href={project.live_url} targe='_blank'>
+                  live
+                </a>
+                <a href={project.gh_url} target='_blank'>
+                  repo
+                </a>
+              </div>
+              <p>{project.description}</p>
             </div>
           );
         })}
