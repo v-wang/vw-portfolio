@@ -1,0 +1,17 @@
+.projects-container {
+}
+
+.projects-container h1 {
+  width: 120px;
+  font-size: 28px;
+  margin: 0 auto;
+}
+
+.projects-filter {
+  display: flex;
+  justify-content: space-between;
+  row-gap: 10px;
+
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
