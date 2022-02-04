@@ -15,6 +15,9 @@ import AboutMobile from './components/About/AboutMobile';
 import ProjectsMobile from './components/Projects/ProjectsMobile';
 import LearningMobile from './components/Learning/LearningMobile';
 import ContactMobile from './components/Contact/ContactMobile';
+import ghIcon from './assets/images/github.png';
+import liIcon from './assets/images/linkedin.png';
+import emailIcon from './assets/images/email.png';
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -81,7 +84,27 @@ function App() {
       <div className='bg-holder-mobile'>
         <div className='bg-inner-one-mobile'>
           <div className='bg-inner-two-mobile'>
-            <img src={menuIcon} />
+            <img src={menuIcon} id='menu-icon-mobile' />
+            <img src={profilePic} id='profile-pic-mobile' />
+            <div id='social-links-mobile'>
+              <a
+                href='https://github.com/v-wang'
+                target='_blank'
+                className='soc-mobile'
+              >
+                <img src={ghIcon} />
+              </a>
+              <a
+                href='https://www.linkedin.com/in/vicw/'
+                target='_blank'
+                className='soc-mobile'
+              >
+                <img src={liIcon} />
+              </a>
+              <a href='mailto: mailbox.vmw@gmail.com ' className='soc-mobile'>
+                <img src={emailIcon} />
+              </a>
+            </div>
             <div className='mobile-menu'>
               <nav id='mobile-nav'>
                 <Link to='/about'>

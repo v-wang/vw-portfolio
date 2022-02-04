@@ -41,3 +41,41 @@
   margin: 0 auto;
   margin-top: 120px;
 }
+
+#mobile-nav {
+  /* display:hidden; */
+  position: absolute;
+  top: 80px;
+  /* border: 1px solid red; */
+}
+
+#mobile-nav a {
+  display: block;
+}
+
+#menu-icon-mobile {
+  position: absolute;
+}
+
+#profile-pic-mobile {
+  width: 30vw;
+  /* border: 1px solid black; */
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+}
+
+#social-links-mobile {
+  display: flex;
+  width: 180px;
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+  gap: 30px;
+  /* border: 1px solid green; */
+}
+
+#social-links-mobile img {
+  width: 40px;
+}
