@@ -1,13 +1,20 @@
 import './App.css';
+import './AppMobile.css';
 import { useState, useEffect } from 'react';
 import { Route } from 'react-router';
 import { Link } from 'react-router-dom';
 import profilePic from './assets/images/profile-pic.png';
+import menuIcon from './assets/images/menu.png';
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Learning from './components/Learning/Learning';
 import Contact from './components/Contact/Contact';
 import resumePDF from './assets/vw-resume.pdf';
+
+import AboutMobile from './components/About/AboutMobile';
+import ProjectsMobile from './components/Projects/ProjectsMobile';
+import LearningMobile from './components/Learning/LearningMobile';
+import ContactMobile from './components/Contact/ContactMobile';
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -27,7 +34,7 @@ function App() {
           <div className='bg-inner-two'>
             <div className='bg-main'>
               <div className='bg-main-content'>
-                <nav>
+                <nav id='desktop-nav'>
                   <Link to='/about'>
                     <button>About</button>
                   </Link>
@@ -70,7 +77,37 @@ function App() {
       </div>
     );
   } else {
-    return <div>test mobile</div>;
+    return (
+      <div className='bg-holder-mobile'>
+        <div className='bg-inner-one-mobile'>
+          <div className='bg-inner-two-mobile'>
+            <img src={menuIcon} />
+            <div className='mobile-menu'>
+              <nav id='mobile-nav'>
+                <Link to='/about'>
+                  <button>About</button>
+                </Link>
+                <Link to='/'>
+                  <button>Projects</button>
+                </Link>
+                <Link to='/learning'>
+                  <button>Learning</button>
+                </Link>
+                <Link to='/contact'>
+                  <button>Contact</button>
+                </Link>
+              </nav>
+            </div>
+            <div className='bg-main-mobile'>
+              <Route exact path='/' component={ProjectsMobile} />
+              <Route exact path='/about' component={AboutMobile} />
+              <Route exact path='/learning' component={LearningMobile} />
+              <Route exact path='/contact' component={ContactMobile} />
+            </div>
+          </div>
+        </div>
+      </div>
+    );
   }
 }
 

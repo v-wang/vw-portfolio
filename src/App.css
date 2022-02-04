@@ -47,12 +47,12 @@
   margin: 0 auto;
 }
 
-nav {
+#desktop-nav {
   text-align: right;
   /* border: 1px solid red; */
 }
 
-nav a button {
+#desktop-nav a button {
   margin: 0px 20px 0px 20px;
   color: black;
   font-weight: 700;
@@ -61,7 +61,7 @@ nav a button {
   background: none;
 }
 
-nav a button:hover {
+#desktop-nav a button:hover {
   cursor: pointer;
 }
 

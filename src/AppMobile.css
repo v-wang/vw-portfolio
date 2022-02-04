@@ -1,0 +1,43 @@
+.bg-holder-mobile {
+  background-color: #c4c4c4;
+  width: 96vw;
+  /* margin: 0 auto; */
+  /* margin-top: 25px; */
+  border-top-right-radius: 30px;
+  /* border-top-left-radius: 30px; */
+  padding-top: 10px;
+  /* max-width: 1175px; */
+}
+
+.bg-inner-one-mobile {
+  background-color: #0fbcf9;
+  width: 94vw;
+  /* border-top-left-radius: 30px; */
+  border-top-right-radius: 30px;
+  padding-top: 10px;
+  /* max-width: 1150px; */
+}
+
+.bg-inner-two-mobile {
+  background-color: #ffd32a;
+  width: 92vw;
+  border-top-right-radius: 30px;
+  /* padding-top: 180px; */
+  /* border-top-left-radius: 30px; */
+  /* max-width: 1525px; */
+  /* max-width: 1125px; */
+}
+
+.bg-main-mobile {
+  background-color: white;
+  width: 80vw;
+  padding: 40px 50px 40px 50px;
+  box-sizing: border-box;
+  min-height: calc(100vh - 15px);
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  /* max-width: 1500px; */
+  /* max-width: 1100px; */
+  margin: 0 auto;
+  margin-top: 120px;
+}
