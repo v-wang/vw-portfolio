@@ -1,4 +1,5 @@
 import React from 'react';
+import './contact.css';
 
 function Contact(props) {
   return (
@@ -19,17 +20,17 @@ function Contact(props) {
         </div>
         <div className='contact-links-holder'>
           <div className='contact-link'>
-            <img src={require('../assets/images/email.png')} />
+            <img src={require('../../assets/images/email.png')} />
             <a href='mailto: mailbox.vmw@gmail.com'>mailbox.vmw@gmail.com</a>
           </div>
           <div className='contact-link'>
-            <img src={require('../assets/images/github.png')} />
+            <img src={require('../../assets/images/github.png')} />
             <a href='https://github.com/v-wang' target='_blank'>
               github.com/v-wang
             </a>
           </div>
           <div className='contact-link'>
-            <img src={require('../assets/images/linkedin.png')} />
+            <img src={require('../../assets/images/linkedin.png')} />
             <a href='https://www.linkedin.com/in/vicw/' target='_blank'>
               linkedin.com/in/vicw/
             </a>
