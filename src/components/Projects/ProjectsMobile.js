@@ -1,9 +1,15 @@
 import './projectsmobile.css';
+import upArrow from '../../assets/images/up-arrow.png';
 import projects from '../../assets/data/projects.json';
 import { useState } from 'react';
+import { animateScroll as scroll } from 'react-scroll';
 
 function ProjectsMobile(props) {
   const [filteredProjects, setFilteredProjects] = useState([]);
+
+  function goUp() {
+    scroll.scrollToTop();
+  }
 
   const categories = new Set(
     projects
@@ -15,6 +21,9 @@ function ProjectsMobile(props) {
 
   return (
     <div className='projects-container'>
+      <button onClick={goUp} className='up-arrow-btn'>
+        <img src={upArrow} className='up-arrow' />
+      </button>
       <h1>Projects</h1>
       <div className='projects-filter'>
         {Array.from(categories)
@@ -42,11 +51,12 @@ function ProjectsMobile(props) {
                 })}
               </div>
               <div className='links-mobile'>
-                <a href={project.live_url} targe='_blank'>
-                  live
+                <a href={project.live_url} target='_blank'>
+                  (live)
                 </a>
+                /
                 <a href={project.gh_url} target='_blank'>
-                  repo
+                  (repo)
                 </a>
               </div>
               <p>{project.description}</p>

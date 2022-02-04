@@ -55,3 +55,27 @@
   padding: 10px;
   line-height: 26px;
 }
+
+.links-mobile {
+  width: 124px;
+  margin: 0 auto;
+  margin-top: 20px;
+  /* border: 1px solid red; */
+}
+
+.links-mobile a {
+  text-decoration: none;
+}
+
+.up-arrow-btn {
+  position: fixed;
+  top: 50vh;
+  right: 44px;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.up-arrow {
+  width: 15px;
+}
