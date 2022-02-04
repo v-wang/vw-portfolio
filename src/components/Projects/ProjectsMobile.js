@@ -21,11 +21,24 @@ function ProjectsMobile(props) {
           .sort()
           .map((category) => {
             return (
-              <div className='category' key={`${category} button`}>
+              <div className='category-mobile' key={`${category} button`}>
                 {category}
               </div>
             );
           })}
+      </div>
+      <div className='projects-holder-mobile'>
+        {projects.map((project) => {
+          return (
+            <div className='project-mobile'>
+              <h2>{project.title}</h2>
+              <img
+                className='project-img-mobile'
+                src={require(`../../assets/images/${project.img_url}`)}
+              />
+            </div>
+          );
+        })}
       </div>
     </div>
   );

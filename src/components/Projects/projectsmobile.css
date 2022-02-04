@@ -9,9 +9,39 @@
 
 .projects-filter {
   display: flex;
-  justify-content: space-between;
-  row-gap: 10px;
-
+  justify-content: center;
+  /* row-gap: 10px; */
+  gap: 15px;
   flex-wrap: wrap;
   margin-top: 25px;
+  /* margin: 0 auto; */
+}
+
+.category-mobile {
+  background-color: #3c40c6;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  font-weight: 700;
+}
+
+.projects-holder-mobile {
+  margin-top: 30px;
+  width: inherit;
+}
+
+.project-mobile {
+  border: 1px solid black;
+}
+
+.project-mobile h2 {
+  margin: 0 auto;
+  font-size: 22px;
+  width: 80%;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.project-img-mobile {
+  width: 40%;
 }
