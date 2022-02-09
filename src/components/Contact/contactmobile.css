@@ -1,0 +1,50 @@
+.contact-holder-mobile {
+  padding-left: 20px;
+  margin-top: 73px;
+}
+
+.contact-content-mobile {
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.contact-text-mobile {
+  width: 420px;
+}
+
+.contact-text-mobile p {
+  line-height: 26px;
+}
+
+.contact-links-holder-mobile {
+  margin-left: 50px;
+  /* margin-top: 25px; */
+}
+
+.contact-link-mobile {
+  display: flex;
+}
+
+.contact-link-mobile a {
+  text-decoration: none;
+  color: #ff5e57;
+  font-weight: 700;
+  margin-top: 21px;
+  margin-left: 10px;
+}
+
+.contact-link-mobile img {
+  width: 30px;
+  height: 30px;
+  /* border: 1px solid red; */
+  margin-top: 18px;
+}
+
+#map-mobile {
+  margin-bottom: 40px;
+}
+
+em {
+  color: #ff5e57;
+  font-weight: 700;
+}
