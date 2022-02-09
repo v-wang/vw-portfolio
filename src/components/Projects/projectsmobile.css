@@ -1,10 +1,7 @@
-.projects-container {
-}
-
-.projects-container h1 {
-  width: 120px;
-  font-size: 28px;
-  margin: 0 auto;
+.projects-container-mobile h1 {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
 }
 
 .projects-filter {
@@ -38,7 +35,7 @@
 .project-mobile h2 {
   margin: 0 auto;
   font-size: 22px;
-  width: 80%;
+  width: 90%;
   /* border: 1px solid red; */
   text-align: center;
   margin-bottom: 15px;

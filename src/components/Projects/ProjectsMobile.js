@@ -20,7 +20,7 @@ function ProjectsMobile(props) {
   );
 
   return (
-    <div className='projects-container'>
+    <div className='projects-container-mobile'>
       <button onClick={goUp} className='up-arrow-btn'>
         <img src={upArrow} className='up-arrow' />
       </button>
