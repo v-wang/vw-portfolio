@@ -36,14 +36,17 @@
 
 .language-logos img {
   width: 14%;
+  height: auto;
 }
 
 .framework-logos img {
   width: 21%;
+  height: auto;
 }
 
 .db-logos img {
   width: 23%;
+  height: auto;
 }
 
 .about-pics img {

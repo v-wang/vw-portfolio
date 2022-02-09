@@ -1,24 +1,26 @@
 .contact-holder-mobile {
-  padding-left: 20px;
-  margin-top: 73px;
 }
 
-.contact-content-mobile {
-  display: flex;
-  margin-bottom: 80px;
+.contact-holder-mobile h1 {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
 }
 
-.contact-text-mobile {
-  width: 420px;
+.contact-content-mobile p {
+  width: 90%;
+  text-align: justify;
+  margin: 0 auto;
 }
 
 .contact-text-mobile p {
   line-height: 26px;
+  margin-bottom: 20px;
 }
 
 .contact-links-holder-mobile {
-  margin-left: 50px;
-  /* margin-top: 25px; */
+  width: 90%;
+  margin: 0 auto;
 }
 
 .contact-link-mobile {
@@ -27,7 +29,7 @@
 
 .contact-link-mobile a {
   text-decoration: none;
-  color: #ff5e57;
+  color: black;
   font-weight: 700;
   margin-top: 21px;
   margin-left: 10px;
@@ -41,7 +43,9 @@
 }
 
 #map-mobile {
-  margin-bottom: 40px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 40px;
 }
 
 em {
