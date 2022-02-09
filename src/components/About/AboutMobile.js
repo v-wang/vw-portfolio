@@ -7,6 +7,7 @@ function AboutMobile(props) {
   const languages = techLanguages[0];
   const frameworks_libraries = techLanguages[1];
   const databases_tools = techLanguages[2];
+
   return (
     <div className='about-container'>
       <div className='about-me'>

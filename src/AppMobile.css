@@ -39,24 +39,11 @@
   /* max-width: 1500px; */
   /* max-width: 1100px; */
   margin: 0 auto;
-  margin-top: 84px;
-}
-
-#mobile-nav {
-  /* display:hidden; */
-  position: absolute;
-  top: 80px;
-  /* border: 1px solid red; */
+  margin-top: 54px;
 }
 
 #mobile-nav a {
   display: block;
-}
-
-#menu-icon-mobile {
-  position: absolute;
-  width: 30px;
-  opacity: 0.6;
 }
 
 #profile-pic-mobile {
@@ -64,7 +51,7 @@
   display: block;
   margin: 0 auto;
   position: relative;
-  top: 30px;
+  top: 10px;
   border-radius: 100%;
   border: 2px solid #c4c4c4;
 }
@@ -74,7 +61,7 @@
   width: 180px;
   margin: 0 auto;
   position: relative;
-  top: 60px;
+  top: 30px;
   gap: 30px;
 }
 

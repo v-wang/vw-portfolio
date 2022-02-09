@@ -19,15 +19,15 @@ import ghIcon from './assets/images/github.png';
 import liIcon from './assets/images/linkedin.png';
 import emailIcon from './assets/images/email.png';
 
-import { Offcanvas } from 'react-bootstrap';
+import MobileMenu from './MobileMenu';
 
 function App() {
-  const [show, setShow] = useState(false);
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const breakpoint = 625;
+
+  function openNav() {
+    document.getElementsByClassName('mobile-menu')[0].style.width = '250px';
+  }
 
   useEffect(() => {
     window.addEventListener('resize', () => {
@@ -87,63 +87,42 @@ function App() {
     );
   } else {
     return (
-      <div className='bg-holder-mobile'>
-        <div className='bg-inner-one-mobile'>
-          <div className='bg-inner-two-mobile'>
-            <img src={menuIcon} id='menu-icon-mobile' onClick={handleShow} />
-            <img src={profilePic} id='profile-pic-mobile' />
-            <div id='social-links-mobile'>
-              <a
-                href='https://github.com/v-wang'
-                target='_blank'
-                className='soc-mobile'
-              >
-                <img src={ghIcon} />
-              </a>
-              <a
-                href='https://www.linkedin.com/in/vicw/'
-                target='_blank'
-                className='soc-mobile'
-              >
-                <img src={liIcon} />
-              </a>
-              <a href='mailto: mailbox.vmw@gmail.com ' className='soc-mobile'>
-                <img src={emailIcon} />
-              </a>
-            </div>
-            <div className='mobile-menu'>
-              <nav id='mobile-nav'>
-                <Link to='/about'>
-                  <button>About</button>
-                </Link>
-                <Link to='/'>
-                  <button>Projects</button>
-                </Link>
-                <Link to='/learning'>
-                  <button>Learning</button>
-                </Link>
-                <Link to='/contact'>
-                  <button>Contact</button>
-                </Link>
-              </nav>
-            </div>
-            <div className='bg-main-mobile'>
-              <Route exact path='/' component={ProjectsMobile} />
-              <Route exact path='/about' component={AboutMobile} />
-              <Route exact path='/learning' component={LearningMobile} />
-              <Route exact path='/contact' component={ContactMobile} />
+      <>
+        <div className='bg-holder-mobile'>
+          <MobileMenu />
+          <div className='bg-inner-one-mobile'>
+            <div className='bg-inner-two-mobile'>
+              <img src={menuIcon} id='menu-icon-mobile' onClick={openNav} />
+              <img src={profilePic} id='profile-pic-mobile' />
+              <div id='social-links-mobile'>
+                <a
+                  href='https://github.com/v-wang'
+                  target='_blank'
+                  className='soc-mobile'
+                >
+                  <img src={ghIcon} />
+                </a>
+                <a
+                  href='https://www.linkedin.com/in/vicw/'
+                  target='_blank'
+                  className='soc-mobile'
+                >
+                  <img src={liIcon} />
+                </a>
+                <a href='mailto: mailbox.vmw@gmail.com ' className='soc-mobile'>
+                  <img src={emailIcon} />
+                </a>
+              </div>
+              <div className='bg-main-mobile'>
+                <Route exact path='/' component={ProjectsMobile} />
+                <Route exact path='/about' component={AboutMobile} />
+                <Route exact path='/learning' component={LearningMobile} />
+                <Route exact path='/contact' component={ContactMobile} />
+              </div>
             </div>
           </div>
         </div>
-        <Offcanvas show={show} onHide={handleClose}>
-          <Offcanvas.Header closeButton>
-            <Offcanvas.Title>
-              <h2>Menu</h2>
-            </Offcanvas.Title>
-          </Offcanvas.Header>
-          <Offcanvas.Body>text</Offcanvas.Body>
-        </Offcanvas>
-      </div>
+      </>
     );
   }
 }
