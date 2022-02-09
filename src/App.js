@@ -19,7 +19,13 @@ import ghIcon from './assets/images/github.png';
 import liIcon from './assets/images/linkedin.png';
 import emailIcon from './assets/images/email.png';
 
+import { Offcanvas } from 'react-bootstrap';
+
 function App() {
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
   const breakpoint = 625;
 
@@ -84,7 +90,7 @@ function App() {
       <div className='bg-holder-mobile'>
         <div className='bg-inner-one-mobile'>
           <div className='bg-inner-two-mobile'>
-            <img src={menuIcon} id='menu-icon-mobile' />
+            <img src={menuIcon} id='menu-icon-mobile' onClick={handleShow} />
             <img src={profilePic} id='profile-pic-mobile' />
             <div id='social-links-mobile'>
               <a
@@ -129,6 +135,14 @@ function App() {
             </div>
           </div>
         </div>
+        <Offcanvas show={show} onHide={handleClose}>
+          <Offcanvas.Header closeButton>
+            <Offcanvas.Title>
+              <h2>Menu</h2>
+            </Offcanvas.Title>
+          </Offcanvas.Header>
+          <Offcanvas.Body>text</Offcanvas.Body>
+        </Offcanvas>
       </div>
     );
   }

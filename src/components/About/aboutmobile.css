@@ -1,3 +1,54 @@
 .about-container {
-  color: red;
+  /* color: red; */
+}
+
+.about-container > * {
+}
+
+.about-me h1,
+.about-languages h1,
+.about-languages h2 {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.about-languages h2 {
+  font-size: 20px;
+}
+
+.about-me > p {
+  width: 90%;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.language-logos,
+.framework-logos,
+.db-logos {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+  row-gap: 10px;
+}
+
+.language-logos img {
+  width: 14%;
+}
+
+.framework-logos img {
+  width: 21%;
+}
+
+.db-logos img {
+  width: 23%;
+}
+
+.about-pics img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 15px;
 }
