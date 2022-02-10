@@ -116,7 +116,7 @@
 }
 
 .intro-text-area h3 {
-  margin: 0;
+  margin: 0 auto;
   color: white;
   font-family: 'Roboto Mono', monospace;
 }

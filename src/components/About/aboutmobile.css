@@ -5,53 +5,58 @@
 .about-container > * {
 }
 
-.about-me h1,
-.about-languages h1,
-.about-languages h2 {
+.about-me-mobile h1,
+.about-languages-mobile h1,
+.about-languages-mobile h2 {
   width: 90%;
   margin: 20px auto;
   text-align: center;
 }
 
-.about-languages h2 {
+.about-languages-mobile h2 {
   font-size: 20px;
+  margin-top: 30px;
 }
 
-.about-me > p {
+.about-me-mobile > p {
   width: 90%;
   margin: 0 auto;
   text-align: justify;
 }
 
-.language-logos,
-.framework-logos,
-.db-logos {
+.language-logos-mobile,
+.framework-logos-mobile,
+.db-logos-mobile {
   width: 80%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 20px auto;
-  row-gap: 10px;
+  gap: 10px 20px;
 }
 
-.language-logos img {
+.language-logos-mobile img {
   width: 14%;
+  align-self: center;
   height: auto;
 }
 
-.framework-logos img {
+.framework-logos-mobile img {
   width: 21%;
   height: auto;
+  align-self: center;
 }
 
-.db-logos img {
+.db-logos-mobile img {
   width: 23%;
+  align-self: center;
   height: auto;
 }
 
-.about-pics img {
+.about-pics-mobile img {
   width: 90%;
   display: block;
   margin: 0 auto;
+  margin-top: 30px;
   border-radius: 15px;
 }
