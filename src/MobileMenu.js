@@ -25,6 +25,14 @@ function MobileMenu() {
           <button>Contact</button>
         </Link>
       </nav>
+      <footer>
+        <div className='gh-link-holder'>
+          <img />
+          <a href='https://github.com/v-wang' target='_blank'>
+            <h4>v-wang</h4>
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

@@ -26,7 +26,7 @@ function App() {
   const breakpoint = 625;
 
   function openNav() {
-    document.getElementsByClassName('mobile-menu')[0].style.width = '250px';
+    document.getElementsByClassName('mobile-menu')[0].style.width = '200px';
   }
 
   useEffect(() => {
