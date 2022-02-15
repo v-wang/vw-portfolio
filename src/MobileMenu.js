@@ -25,14 +25,14 @@ function MobileMenu() {
           <button>Contact</button>
         </Link>
       </nav>
-      <footer>
+      {/* <footer>
         <div className='gh-link-holder'>
           <img />
-          <a href='https://github.com/v-wang' target='_blank'>
+          <a href='https://github.com/v-wang' target=' _blank'>
             <h4>v-wang</h4>
           </a>
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 }
