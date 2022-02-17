@@ -33,14 +33,14 @@
 
 .language-logos img {
   width: 70px;
-  height: fit-content;
+  height: 100%;
 }
 
 .framework-logos img {
   width: 100px;
-  height: fit-content;
+  height: 100%;
 }
 .db-logos img {
   width: 110px;
-  height: fit-content;
+  height: 100%;
 }
