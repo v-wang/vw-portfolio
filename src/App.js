@@ -50,9 +50,9 @@ function App() {
                   <Link to='/'>
                     <button>Projects</button>
                   </Link>
-                  <Link to='/learning'>
+                  {/* <Link to='/learning'>
                     <button>Learning</button>
-                  </Link>
+                  </Link> */}
                   <Link to='/contact'>
                     <button>Contact</button>
                   </Link>
@@ -77,7 +77,7 @@ function App() {
                 </div>
                 <Route exact path='/' component={Projects} />
                 <Route exact path='/about' component={About} />
-                <Route exact path='/learning' component={Learning} />
+                {/* <Route exact path='/learning' component={Learning} /> */}
                 <Route exact path='/contact' component={Contact} />
               </div>
             </div>
@@ -116,7 +116,7 @@ function App() {
               <div className='bg-main-mobile'>
                 <Route exact path='/' component={ProjectsMobile} />
                 <Route exact path='/about' component={AboutMobile} />
-                <Route exact path='/learning' component={LearningMobile} />
+                {/* <Route exact path='/learning' component={LearningMobile} /> */}
                 <Route exact path='/contact' component={ContactMobile} />
               </div>
             </div>
